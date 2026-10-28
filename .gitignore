@@ -1,0 +1,10 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+data/ops/
+data/raw/
+data/validated/
+data/curated/
+data/quarantine/
+data/generator_truth.csv

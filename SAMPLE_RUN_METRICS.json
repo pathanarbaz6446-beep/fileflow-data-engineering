@@ -1,0 +1,16 @@
+{
+  "run_id": "aa2d06ef-e302-45ab-a9bd-838cbaa11d96",
+  "started_at": "2026-10-28T19:49:12Z",
+  "ended_at": "2026-10-28T19:49:13Z",
+  "status": "success",
+  "files_seen": 1,
+  "files_processed": 1,
+  "files_skipped": 0,
+  "input_rows": 5,
+  "valid_rows": 3,
+  "rejected_rows": 2,
+  "duplicate_rows": 1,
+  "curated_added_rows": 2,
+  "elapsed_seconds": 0.198301,
+  "failure_reason": null
+}

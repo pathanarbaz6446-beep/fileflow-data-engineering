@@ -1,0 +1,2 @@
+event_id,customer_id,event_timestamp,amount,currency
+EVT00000001,C01825,2026-02-28T04:50:00Z,126.03,INR

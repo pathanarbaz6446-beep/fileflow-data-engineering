@@ -1,0 +1,25 @@
+
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
+test_duplicate_event_in_batch (test_pipeline.PipelineTests.test_duplicate_event_in_batch) ... ok
+test_empty_batch (test_pipeline.PipelineTests.test_empty_batch) ... ok
+test_happy_path_and_partition (test_pipeline.PipelineTests.test_happy_path_and_partition) ... ok
+test_invalid_timestamp (test_pipeline.PipelineTests.test_invalid_timestamp) ... ok
+test_late_arrival_uses_event_date_partition (test_pipeline.PipelineTests.test_late_arrival_uses_event_date_partition) ... ok
+test_missing_required_value (test_pipeline.PipelineTests.test_missing_required_value) ... ok
+test_negative_amount_and_bad_reference (test_pipeline.PipelineTests.test_negative_amount_and_bad_reference) ... ok
+test_rerun_is_idempotent (test_pipeline.PipelineTests.test_rerun_is_idempotent) ... ok
+test_schema_change_fails (test_pipeline.PipelineTests.test_schema_change_fails) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.093s
+
+OK
